@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    gap: 2px;
+    width: 960px;
+    height: 960px;
+    background-color: #9DB2BF}
+
+#container div {
+    background-color: #27374D;
+    border-radius: 5px;
+}
+.right-panel {
+    flex: 1;
+    padding: 25px;
+    padding-left: 50px;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+button {
+    background-color: #D8B4F8;
+    width: 150px;
+    height: 60px;
+    border-radius: 8px;
+}
